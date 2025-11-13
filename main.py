@@ -40,7 +40,7 @@ def save_histogram_with_fit(df, column, filename):
 
 def save_spc_chart(df, column, filename):
     """
-    Create an X̄ control chart (individual measurements).
+    Create an X control chart (individual measurements).
     """
 
     values = df[column]
